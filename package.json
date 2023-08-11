@@ -5,6 +5,9 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "changeset": "changeset",
+    "release": "changeset version",
+    "postrelease": "changeset publish",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "add": "turbo gen",
