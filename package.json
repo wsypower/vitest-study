@@ -8,6 +8,7 @@
     "changeset": "changeset",
     "release": "changeset version",
     "postrelease": "changeset publish",
+    "tag": "changeset tag",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "add": "turbo gen",
