@@ -5,6 +5,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "add": "turbo gen",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -13,6 +14,7 @@
     "@changesets/cli": "^2.26.2",
     "@turbo/gen": "^1.9.7",
     "eslint": "^8.46.0",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.1.6"
   }
 }
