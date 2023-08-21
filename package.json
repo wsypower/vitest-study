@@ -20,6 +20,7 @@
     "@changesets/cli": "^2.26.2",
     "@turbo/gen": "^1.9.7",
     "eslint": "^8.46.0",
+    "flush-promises": "^1.0.2",
     "lodash-es": "^4.17.21",
     "turbo": "latest",
     "typescript": "^5.1.6",
