@@ -1,3 +1,10 @@
+/*
+ * @Description
+ * @Author: wsy
+ * @Date: 2023-08-18 21:12:49
+ * @LastEditTime: 2023-08-21 19:33:07
+ * @LastEditors: wsy
+ */
 export class Counter {
   private count: number
   constructor() {

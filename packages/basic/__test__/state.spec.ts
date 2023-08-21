@@ -17,3 +17,15 @@ describe('状态存在于database', () => {
     expect(database.getUser()).toContainEqual(newUser)
   })
 })
+
+describe('行为验证', () => {
+  it('should create user', () => {
+    const database = new Database()
+    // mock了函数
+    vi.spyOn(database, 'addUser')
+
+    const user = new UserService(database)
+    user.createUser('test')
+    expect(database.addUser).toBeCalled()
+  })
+})
